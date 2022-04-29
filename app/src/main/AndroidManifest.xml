@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.moco">
+
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    "<uses-permission android:name="android.permission.RECEIVE_SMS" />"
+    "<uses-permission android:name="android.permission.READ_PHONE_STATE" />"
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_moco"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_moco_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MOCO"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".DeleltedeviceActivity"
+            android:exported="false"
+            android:theme="@style/DialogTheme" />
+        <activity
+            android:name=".Announcementlist2Activity"
+            android:exported="false"
+            android:theme="@style/DialogTheme" />
+        <activity
+            android:name=".LightActivity"
+            android:exported="false"
+            android:theme="@style/DialogTheme" />
+        <activity
+            android:name=".AdddeviceActivity"
+            android:exported="false"
+            android:theme="@style/DialogTheme" />
+        <activity
+            android:name=".RealdeleteActivity"
+            android:exported="false"
+            android:theme="@style/DialogTheme" />
+        <activity
+            android:name=".ReviseActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".AnnouncementlistActivity"
+            android:exported="false"
+            android:theme="@style/DialogTheme" />
+        <activity
+            android:name=".JoininfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MachineActivity"
+            android:exported="false"
+            android:theme="@style/DialogTheme" />
+        <activity
+            android:name=".FanActivity"
+            android:exported="false"
+            android:theme="@style/DialogTheme" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JoinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IntroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

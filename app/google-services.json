@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "966011479914",
+    "project_id": "moco-823ec",
+    "storage_bucket": "moco-823ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966011479914:android:30be5fe4566bcae9836713",
+        "android_client_info": {
+          "package_name": "com.example.moco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966011479914-svo26cr4pq5dckt002g0dr5k1ubdbk5h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsG4vZWbrUnfM_ikyNEc8ZEH-mj-CaPu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "966011479914-svo26cr4pq5dckt002g0dr5k1ubdbk5h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
