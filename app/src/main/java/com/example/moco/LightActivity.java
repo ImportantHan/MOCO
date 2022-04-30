@@ -41,7 +41,7 @@ public class LightActivity extends AppCompatActivity {
                     on_off_light.setBackgroundResource(R.drawable.btn_on);
                     lottie_light.resumeAnimation();
 
-                    String url = "http://172.30.1.34:8090/MocoServer/api/getResult?none=0&hot=0&cold=0&spin=0&sleep=1";
+                    String url = "http://172.30.1.34:8090/MocoServer/api/getResult?none=False&hot=False&cold=False&spin=False&sleep=False";
 
                     request = new StringRequest(
                             Request.Method.GET,
@@ -66,7 +66,7 @@ public class LightActivity extends AppCompatActivity {
                     on_off_light.setBackgroundResource(R.drawable.btn_off);
                     lottie_light.pauseAnimation();
 
-                    String url = "http://172.30.1.34:8090/MocoServer/api/getResult?none=0&hot=0&cold=0&spin=0&sleep=0";
+                    String url = "http://172.30.1.34:8090/MocoServer/api/getResult?none=False&hot=False&cold=False&spin=False&sleep=True";
 
                     request = new StringRequest(
                             Request.Method.GET,

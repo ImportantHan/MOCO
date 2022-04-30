@@ -43,7 +43,7 @@ public class FanActivity extends AppCompatActivity {
                     on_off_fan.setBackgroundResource(R.drawable.btn_on);
                     lottie_fan.resumeAnimation();
 
-                    String url = "http://172.30.1.34:8090/MocoServer/api/getResult?none=0&hot=1&cold=0&spin=0&sleep=0";
+                    String url = "http://172.30.1.34:8090/MocoServer/api/getResult?none=False&hot=True&cold=False&spin=False&sleep=Fasle";
 
                     request = new StringRequest(
                             Request.Method.GET,
@@ -68,7 +68,7 @@ public class FanActivity extends AppCompatActivity {
                     on_off_fan.setBackgroundResource(R.drawable.btn_off);
                     lottie_fan.pauseAnimation();
 
-                    String url = "http://172.30.1.34:8090/MocoServer/api/getResult?none=0&hot=0&cold=1&spin=0&sleep=0";
+                    String url = "http://172.30.1.34:8090/MocoServer/api/getResult?none=False&hot=False&cold=True&spin=False&sleep=False";
 
                     request = new StringRequest(
                             Request.Method.GET,
